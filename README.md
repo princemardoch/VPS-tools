@@ -14,6 +14,10 @@ Si vous n'avez pas déjà un utilisateur non-root, créez-en un (par exemple, `u
 adduser utilisateur
 ```
 
+```bash
+sudo usermod -aG sudo nouvel_utilisateur
+```
+
 Suivez les instructions pour définir le mot de passe et les informations de l'utilisateur.
 
 ---
